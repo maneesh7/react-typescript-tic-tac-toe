@@ -1,0 +1,16 @@
+.board {
+  .sqrBoard {
+    display: grid;
+    grid-template-areas:
+      'box box box'
+      'box box box'
+      'box box box';
+
+    grid-template-rows: 40px 40px 40px;
+    grid-template-columns: 40px 40px 40px;
+  }
+  .resetGame {
+    width: 120px;
+    margin: 20px 0;
+  }
+}
